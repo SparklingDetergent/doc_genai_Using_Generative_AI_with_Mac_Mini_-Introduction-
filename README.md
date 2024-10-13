@@ -36,7 +36,7 @@ Mac Miniでの生成AI活用（導入）
 
 <br/><br/>
 ## 生成AIの成り立ちや種類について
-
+https://github.com/SparklingDetergent/doc_genai_About_the_origins_and_types_of_generative_AI/blob/main/README.md
 ### AIの種類
 
 ```mermaid
