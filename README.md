@@ -69,8 +69,8 @@ graph LR
 | エンターテイメント | ゲームシナリオ生成 |
 
 <br/><br/>
-## LLMの利用形態について
-
+## ローカルLLMの有用性について
+https://github.com/SparklingDetergent/doc_genai_The_usefulness_of_local_LLM/blob/main/README.md
 ### LLMの動作環境
 
 ```mermaid
@@ -105,7 +105,7 @@ graph LR
 
 <br/><br/>
 ## ローカルLLMの動作環境について
-
+https://github.com/SparklingDetergent/doc_genai_About_the_local_LLM_operating_environment/blob/main/README.md
 ### メモリ・演算装置
 
 | メモリ種類 | 演算装置 |
@@ -138,7 +138,7 @@ graph LR
 
 <br/><br/>
 ## ローカルLLMの業務利用導入手順について
-
+https://github.com/SparklingDetergent/doc_genai_About_the_introduction_procedure_for_business_use_of_LocalLLM/blob/main/README.md
 ### 検証段階
 
 ```mermaid
