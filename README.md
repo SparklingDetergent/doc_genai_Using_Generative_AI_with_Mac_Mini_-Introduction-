@@ -195,6 +195,6 @@ graph LR
  - https://github.com/SparklingDetergent/doc_genai_Using_Generative_AI_with_Mac_Mini_M1_-Server_Setup-/blob/main/README.md
 <br/>
 - 参考として、ログ分析に役立つチャットスクリプトを示します。
- - [https://github.com/SparklingDetergent/doc_genai_Using_Generative_AI_with_Mac_Mini_M1_-Server_Setup-/blob/main/README.md](https://github.com/SparklingDetergent/src_genai_Script_to_use_local_LLM_with_llama.cpp_and_PowerShell)
+ - https://github.com/SparklingDetergent/src_genai_Script_to_use_local_LLM_with_llama.cpp_and_PowerShell
 
 
