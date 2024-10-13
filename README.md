@@ -1,5 +1,6 @@
-# doc_genai_Using_Generative_AI_with_Mac_Mini_-Introduction-
-Mac Miniでの生成AI活用（導入）
+## Mac Mini での生成AI活用（導入）
+
+# Mac Miniでの生成AI活用（導入）
 
 ## はじめに
 
@@ -14,7 +15,6 @@ graph LR
     A[AIの種類] --> B[人間]
     A --> C[従来のAI]
     A --> D[生成AI]
-    style D fill:#f9f,stroke:#333,stroke-width:4px
 ```
 
 ### 生成AIの種類
@@ -24,7 +24,6 @@ graph LR
     A[生成AIの種類] --> B[画像生成]
     A --> C[テキスト生成・LLM]
     A --> D[動画生成]
-    style C fill:#f9f,stroke:#333,stroke-width:4px
 ```
 
 ### 生成AIの活用事例
@@ -47,7 +46,6 @@ graph LR
     A[LLMの動作環境] --> B[クラウドサービス上のLLM]
     A --> C[クラウド環境へデプロイするLLM]
     A --> D[ローカル環境で動作するLLM]
-    style D fill:#f9f,stroke:#333,stroke-width:4px
 ```
 
 **補足**: ローカル環境で動作するLLMについては、Hugging Face等のサイトで配布されているモデルを、ライセンスに応じて利用可能です。
@@ -59,7 +57,6 @@ graph LR
     A[動作機器] --> B[ワークステーション]
     A --> C[エッジサーバー]
     A --> D[AI専用機器]
-    style C fill:#f9f,stroke:#333,stroke-width:4px
 ```
 
 ### 具体的なユースケース例
@@ -90,7 +87,6 @@ graph LR
     A --> C[llama.cpp]
     A --> D[MLX]
     A --> E[ONNX Runtime]
-    style C fill:#f9f,stroke:#333,stroke-width:4px
 ```
 
 ### モデルサイズ
@@ -101,7 +97,6 @@ graph LR
     A --> C[3-9B]
     A --> D[9-27B]
     A --> E[27B以上]
-    style D fill:#f9f,stroke:#333,stroke-width:4px
 ```
 
 # Mac Miniでの生成AI活用（導入）
@@ -152,3 +147,5 @@ graph LR
 ### まとめ
 
 ローカルLLMの導入により、セキュリティを確保しつつ、業務効率化を実現できます。継続的な評価と改善が重要です。
+
+この文章では、**強調したい部分**や重要な情報を<u>下線</u>で示すことで、読者の注目を集め、理解を深めるようにしました。また、mermaid図の**色付け**を控えめにし、**重要な項目**にのみ色を付けることで、全体の見やすさを保ちつつ、重要な情報を効果的に強調しました。 
