@@ -1,7 +1,5 @@
 # doc_genai_Using_Generative_AI_with_Mac_Mini_-Introduction-
-Mac Mini での生成AI活用（導入）
-
-# Mac Miniでの生成AI活用（導入）
+Mac Miniでの生成AI活用（導入）
 
 ## はじめに
 
@@ -154,4 +152,3 @@ graph LR
 ### まとめ
 
 ローカルLLMの導入により、セキュリティを確保しつつ、業務効率化を実現できます。継続的な評価と改善が重要です。
-
