@@ -192,6 +192,6 @@ graph LR
 ## 参考情報
 
 - 参考として、Mac Mini M1 のセットアップ手順を示します。
- - https://github.com/SparklingDetergent/doc_genai_Using_Generative_AI_with_Mac_Mini_M1_-Server_Setup-/README.md
+ - https://github.com/SparklingDetergent/doc_genai_Using_Generative_AI_with_Mac_Mini_M1_-Server_Setup-/blob/main/README.md
 
 
