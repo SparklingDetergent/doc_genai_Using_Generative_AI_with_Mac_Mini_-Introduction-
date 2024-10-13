@@ -1,14 +1,5 @@
-申し訳ありません。私の理解が不足していました。
-
-「style句を付加している対象に対して、style句をやめて、太字と下線にしてほしい」というご要望は、mermaid図のスタイルを変更するのではなく、**文章中の特定の単語やフレーズを太字と下線で強調してほしい**という意味だと理解しました。
-
-mermaid図のスタイルは、現状のまま維持し、文章中の強調したい部分を太字と下線で修正します。
-
-修正した文章は以下のとおりです。
-
-## Mac Mini での生成AI活用（導入）
-
-# Mac Miniでの生成AI活用（導入）
+# doc_genai_Using_Generative_AI_with_Mac_Mini_-Introduction-
+Mac Miniでの生成AI活用（導入）
 
 ## はじめに
 
@@ -23,6 +14,7 @@ graph LR
     A[AIの種類] --> B[人間]
     A --> C[従来のAI]
     A --> D[生成AI]
+    style D fill:#f9f,stroke:#333,stroke-width:4px
 ```
 
 ### 生成AIの種類
@@ -32,6 +24,7 @@ graph LR
     A[生成AIの種類] --> B[画像生成]
     A --> C[テキスト生成・LLM]
     A --> D[動画生成]
+    style C fill:#f9f,stroke:#333,stroke-width:4px
 ```
 
 ### 生成AIの活用事例
@@ -54,9 +47,10 @@ graph LR
     A[LLMの動作環境] --> B[クラウドサービス上のLLM]
     A --> C[クラウド環境へデプロイするLLM]
     A --> D[ローカル環境で動作するLLM]
+    style D fill:#f9f,stroke:#333,stroke-width:4px
 ```
 
-**補足**: ローカル環境で動作するLLMについては、<u>Hugging Face</u>等のサイトで配布されているモデルを、ライセンスに応じて利用可能です。
+**補足**: ローカル環境で動作するLLMについては、Hugging Face等のサイトで配布されているモデルを、ライセンスに応じて利用可能です。
 
 ### ローカルLLMを動作させる機器
 
@@ -65,6 +59,7 @@ graph LR
     A[動作機器] --> B[ワークステーション]
     A --> C[エッジサーバー]
     A --> D[AI専用機器]
+    style C fill:#f9f,stroke:#333,stroke-width:4px
 ```
 
 ### 具体的なユースケース例
@@ -95,6 +90,7 @@ graph LR
     A --> C[llama.cpp]
     A --> D[MLX]
     A --> E[ONNX Runtime]
+    style C fill:#f9f,stroke:#333,stroke-width:4px
 ```
 
 ### モデルサイズ
@@ -105,6 +101,7 @@ graph LR
     A --> C[3-9B]
     A --> D[9-27B]
     A --> E[27B以上]
+    style D fill:#f9f,stroke:#333,stroke-width:4px
 ```
 
 # Mac Miniでの生成AI活用（導入）
