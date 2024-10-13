@@ -24,6 +24,7 @@ Mac Miniでの生成AI活用（導入）
 - [ローカルLLMの業務利用導入後の展望について](#ローカルllmの業務利用導入後の展望について)
   - [展望](#展望)
   - [まとめ](#まとめ)
+- [参考情報](#参考情報)
 
 <br/><br/>
 ## はじめに
@@ -32,8 +33,6 @@ Mac Miniでの生成AI活用（導入）
 - 下記図表の印「■」については、この目的に沿って着目するべきキーワードに記しています。
 - 下記図表ではキーワードのみ記しているため、詳細をご覧になりたい場合は、各章のリンクをご参照ください。
 
-<br/><br/>
-https://github.com/SparklingDetergent/doc_genai_Using_Generative_AI_with_Mac_Mini_M1_-Server_Setup-
 
 <br/><br/>
 ## 生成AIの成り立ちや種類について
@@ -185,6 +184,14 @@ graph LR
 ```
 
 <br/><br/>
-### まとめ
+## まとめ
 
 ローカルLLMの導入により、セキュリティを確保しつつ、業務効率化を実現できます。継続的な評価と改善が重要です。
+
+<br/><br/>
+## 参考情報
+
+- 参考として、Mac Mini M1 のセットアップ手順を示します。
+ - https://github.com/SparklingDetergent/doc_genai_Using_Generative_AI_with_Mac_Mini_M1_-Server_Setup-
+
+
