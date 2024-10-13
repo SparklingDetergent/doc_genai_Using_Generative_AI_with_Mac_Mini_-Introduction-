@@ -14,7 +14,7 @@ Mac Apple siliconにより構成されたMac Miniを用いてローカルLLMに�
 graph LR
     A[AIの種類] --> B[人間]
     A --> C[従来のAI]
-    A --> D[生成AI]
+    A --> D[** 生成AI **]
 ```
 
 ### 生成AIの種類
