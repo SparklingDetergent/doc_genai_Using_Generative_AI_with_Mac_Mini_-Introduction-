@@ -41,7 +41,7 @@ https://github.com/SparklingDetergent/doc_genai_About_the_origins_and_types_of_g
 
 ```mermaid
 graph LR
-    A[AIの種類] --> B[人間（対比として）]
+    A[AIの種類] 
     A --> C[従来のAI]
     A --> D[生成AI■]
 ```
