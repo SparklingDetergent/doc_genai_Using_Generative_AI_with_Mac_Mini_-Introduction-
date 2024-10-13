@@ -32,6 +32,7 @@ Mac Miniでの生成AI活用（導入）
 - 下記図表の印「■」については、この目的に沿って着目するべきキーワードに記しています。
 - 下記図表ではキーワードのみ記しているため、詳細をご覧になりたい場合は、各章のリンクをご参照ください。
 
+<br/><br/>
 https://github.com/SparklingDetergent/doc_genai_Using_Generative_AI_with_Mac_Mini_M1_-Server_Setup-
 
 <br/><br/>
