@@ -58,7 +58,7 @@ Mac Miniでの生成AI活用（導入）
 #### プロンプトエンジニアリングについて
 https://github.com/SparklingDetergent/doc_genai_About_prompt_engineering/blob/main/README.md
 - いったん回答が終わったら、「続けて」と入力し実行してみましょう。
-- そろそろ回答が出尽くしたと感じたら、「これまでの回答を総合して最高の結果を出してください」と入力して実行してみましょう。
+  - そろそろ回答が出尽くしたと感じたら、「これまでの回答を総合して最高の結果を出してください」と入力して実行してみましょう。
 - 回答内容が期待するものではない場合、会話の途中で具体的なプロンプトを入力するか、会話をリセットし最初に入力するプロンプトを具体化します。
   - 「共通関数にして」「コメントを加えて」「安全性を考慮して」「初学者にも分かりやすく」等と具体的に入力し実行してみましょう。
 
@@ -271,8 +271,8 @@ graph LR
 ## 参考情報
 
 - 参考として、Mac Mini M1 のセットアップ手順を示します。
- - https://github.com/SparklingDetergent/doc_genai_Using_Generative_AI_with_Mac_Mini_M1_-Server_Setup-/blob/main/README.md
+  - https://github.com/SparklingDetergent/doc_genai_Using_Generative_AI_with_Mac_Mini_M1_-Server_Setup-/blob/main/README.md
 - 参考として、ログ分析に役立つチャットスクリプトを示します。
- - https://github.com/SparklingDetergent/src_genai_Script_to_use_local_LLM_with_llama.cpp_and_PowerShell
+  - https://github.com/SparklingDetergent/src_genai_Script_to_use_local_LLM_with_llama.cpp_and_PowerShell
 
 
