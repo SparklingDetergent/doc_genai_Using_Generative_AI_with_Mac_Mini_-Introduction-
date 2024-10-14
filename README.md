@@ -70,6 +70,7 @@ https://github.com/SparklingDetergent/doc_genai_About_prompt_engineering/blob/ma
 
 <br/><br/>
 ### 生成AIはスキルの１つ
+- 生成AIはスキルの１つ、とイメージすると分かりやすいかもしれません。
 
 ```mermaid
 graph LR
