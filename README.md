@@ -37,7 +37,7 @@ Mac Miniでの生成AI活用（導入）
 
 - Mac Apple siliconにより構成されたMac Miniを用いてローカルLLMによるAIチャット機能を導入し、業務効率化を実現することを目指します。
 <br/><br/>
-- 下記図表の印「■」については、この目的に沿って着目するべきキーワードに記しています。
+- 下記図表の印「◇」については、この目的に沿って着目するべきキーワードに記しています。
   - 下記図表ではキーワードのみ記しているため、詳細をご覧になりたい場合は、各章のリンクをご参照ください。
 
 <br/><br/>
@@ -56,7 +56,7 @@ Mac Miniでの生成AI活用（導入）
 - **プロンプト:** 生成AIの導入資料を作成してください。フェーズ１から順に完成度を高めるものとします。
 
 <br/><br/>
-#### プロンプトエンジニアリングについて■
+#### プロンプトエンジニアリングについて◇
 https://github.com/SparklingDetergent/doc_genai_About_prompt_engineering/blob/main/README.md
 - いったん回答が終わったら、「続けて」と入力し実行してみましょう。
   - そろそろ回答が出尽くしたと感じたら、「これまでの回答を総合して最高の結果を出してください」と入力して実行してみましょう。
@@ -76,7 +76,7 @@ graph LR
     A --> B[インターネット検索]
     A --> C[SQL]
     A --> D[正規表現]
-    A --> E[生成AI■]
+    A --> E[生成AI◇]
 ```
 
 <br/><br/>
@@ -84,7 +84,7 @@ graph LR
 
 ```mermaid
 graph LR
-    A[大量のデータ] --> B[機械学習] --> |学習| C{生成モデル■};
+    A[大量のデータ] --> B[機械学習] --> |学習| C{生成モデル◇};
     A --> D[深層学習] --> |学習| C;
 ```
 
@@ -93,7 +93,7 @@ graph LR
 
 ```mermaid
 graph LR
-    G[プロンプト（入力）] --> E{生成モデル■} --> |推論| F[新しいデータ<BR/>新しいコンテンツ];
+    G[プロンプト（入力）] --> E{生成モデル◇} --> |推論| F[新しいデータ<BR/>新しいコンテンツ];
 ```
 
 <br/><br/>
@@ -102,7 +102,7 @@ graph LR
 
 ```mermaid
 graph LR
-    A[生成AI] --> F[プロンプト次第で回答が変化する特性■]
+    A[生成AI] --> F[プロンプト次第で回答が変化する特性◇]
     A --> G[回答を見て使えないとやり直す必要がある]
     A --> B[利用することで逆に効率が下がるリスク]
     A --> E[プロンプトの情報量が多すぎると処理できない]
@@ -124,7 +124,7 @@ https://github.com/SparklingDetergent/doc_genai_About_the_origins_and_types_of_g
 graph LR
     A[AIの種類] 
     A --> C[従来のAI]
-    A --> D[生成AI■]
+    A --> D[生成AI◇]
 ```
 
 <br/><br/>
@@ -133,7 +133,7 @@ graph LR
 ```mermaid
 graph LR
     A[生成AIの種類] --> B[画像生成]
-    A --> C[テキスト生成・LLM■]
+    A --> C[テキスト生成・LLM◇]
     A --> D[動画生成]
 ```
 
@@ -144,7 +144,7 @@ graph LR
 |------|--------|
 | マーケティング | 広告文言生成 |
 | カスタマーサービス | チャットボット |
-| 業務■ | レポート作成支援 |
+| 業務◇ | レポート作成支援 |
 | 教育 | 個別化学習コンテンツ |
 | 医療 | 診断支援 |
 | エンターテイメント | ゲームシナリオ生成 |
@@ -158,7 +158,7 @@ https://github.com/SparklingDetergent/doc_genai_The_usefulness_of_local_LLM/blob
 graph LR
     A[LLMの動作環境] --> B[クラウドサービス上のLLM]
     A --> C[クラウド環境へデプロイするLLM]
-    A --> D[ローカル環境で動作するLLM■]
+    A --> D[ローカル環境で動作するLLM◇]
 ```
 
 **補足**: ローカル環境で動作するLLMについては、Hugging Face等のサイトで配布されているモデルを、ライセンスに応じて利用可能です。
@@ -169,7 +169,7 @@ graph LR
 ```mermaid
 graph LR
     A[動作機器] --> B[ワークステーション]
-    A --> C[エッジサーバー■]
+    A --> C[エッジサーバー◇]
     A --> D[AI専用機器]
 ```
 
@@ -180,7 +180,7 @@ graph LR
 |--------------|------|
 | 社内情報検索システム | 社内文書の効率的な検索・要約 |
 | 顧客対応チャットボット | 24時間対応の自動応答 |
-| コーディング支援■ | プログラミング補助・デバッグ支援 |
+| コーディング支援◇ | プログラミング補助・デバッグ支援 |
 | オフライン翻訳 | インターネット接続不要の翻訳 |
 | 医療現場での診断支援 | 症状に基づく初期診断補助 |
 
@@ -193,7 +193,7 @@ https://github.com/SparklingDetergent/doc_genai_About_the_local_LLM_operating_en
 |------------|----------|
 | RAM | CPU |
 | VRAM | GPU |
-| 共有メモリ■ | CPU, GPU, NPU |
+| 共有メモリ◇ | CPU, GPU, NPU |
 
 <br/><br/>
 ### アプリケーション
@@ -201,7 +201,7 @@ https://github.com/SparklingDetergent/doc_genai_About_the_local_LLM_operating_en
 ```mermaid
 graph LR
     A[アプリケーション] --> B[Transformers]
-    A --> C[llama.cpp■]
+    A --> C[llama.cpp◇]
     A --> D[MLX]
     A --> E[ONNX Runtime]
 ```
@@ -213,7 +213,7 @@ graph LR
 graph LR
     A[モデルサイズ] --> B[1-3B]
     A --> C[3-9B]
-    A --> D[9-27B■]
+    A --> D[9-27B◇]
     A --> E[27B以上]
 ```
 
@@ -225,7 +225,7 @@ https://github.com/SparklingDetergent/doc_genai_About_the_introduction_procedure
 ```mermaid
 graph TD
     A[検証段階] --> B[検証期間]
-    A --> C[ログ分析■]
+    A --> C[ログ分析◇]
     A --> D[業務成果との比較]
     A --> E[効果検証]
 ```
@@ -237,7 +237,7 @@ graph TD
 graph TD
     A[運用段階] --> B[マニュアル化]
     A --> C[展開]
-    A --> D[継続的な改善■]
+    A --> D[継続的な改善◇]
 ```
 
 <br/><br/>
@@ -248,7 +248,7 @@ graph TD
     A[管理段階] --> B[新モデルと機器の評価]
     A --> C[スケーラビリティの検討]
     A --> D[評価体制の構築]
-    A --> E[評価手順の整備■]
+    A --> E[評価手順の整備◇]
 ```
 
 <br/><br/>
@@ -258,7 +258,7 @@ graph TD
 
 ```mermaid
 graph LR
-    A[展望] --> B[マルチモーダル導入■]
+    A[展望] --> B[マルチモーダル導入◇]
     A --> C[RAG導入]
     A --> D[エージェント技術導入]
     A --> E[LLMアプリケーション導入]
